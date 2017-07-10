@@ -6,8 +6,13 @@ var Main = (props) => {
   return (
     <div>
       <Nav/>
-      <h2>Main Component</h2>
-      {props.children}
+      <div className="grid-container">
+        <div className="grid-x">
+          <div className="cell medium-6 large-4">
+            {props.children}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
