@@ -3,8 +3,8 @@ var React = require('react');
 var About = (props) => {
   return(
     <div>
-      <h3>About Weather Feather</h3>
-      <p>Weather Feather is an amazing weather app built using the latest features in React.js and Foundation for Sites!</p>
+      <h3 className="page-title text-center">About Weather Feather</h3>
+      <p>Weather Feather is an amazing weather app built using the latest features in React.js, SASS and Zurb Foundation!</p>
       <p>Weather data are made available through: <a href="http://openweathermap.org/">Open Weather Map</a></p>
       <br/>
       <p>Testimonies</p>

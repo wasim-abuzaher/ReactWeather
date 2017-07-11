@@ -79,7 +79,7 @@ var Weather = React.createClass({
 
     return(
       <div>
-        <h3>Get Weather</h3>
+        <h3 className="page-title text-center">Get Weather</h3>
         <WeatherForm onNewCity={this.handleNewCity}/>
         {renderMessage()}
         {renderErrorMessage()}

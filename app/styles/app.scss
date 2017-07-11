@@ -1,0 +1,21 @@
+$space-large: 2.5rem;
+$sky-blue: #b3e5fc;
+
+body {
+  background-color: $sky-blue;
+}
+
+.page-title {
+  margin-top: $space-large;
+  margin-bottom: $space-large;
+}
+
+.frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type=search] {
+  box-shadow: none;
+}
