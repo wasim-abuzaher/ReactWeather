@@ -8,7 +8,7 @@ var Main = (props) => {
       <Nav/>
       <div className="grid-container">
         <div className="grid-x">
-          <div className="cell medium-6 large-4">
+          <div className="cell medium-6">
             {props.children}
           </div>
         </div>
